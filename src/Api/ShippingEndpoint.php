@@ -51,7 +51,6 @@ class ShippingEndpoint{
     private $suggestSettlement;
     private $editPickUp;
 
-
     public function addPackage(){
         return $this->addPackage = new ShippingRequest\AddPackage();
     }
@@ -238,5 +237,6 @@ class ShippingEndpoint{
     }
     public function editPickUp(){
        return $this->editPickUp = new ShippingRequest\EditPickUp();
-   }
+    }
 }
+
