@@ -20,7 +20,6 @@ class EditPickUp extends GenericShippingRequest
         ->Number("packages")->setMulty()->setRequired()->add();
     }
 
-
     public function getResponseClassName()
     {
         return EditPickUpResult::class;
@@ -53,7 +52,5 @@ class EditPickUp extends GenericShippingRequest
     public function setComment($comment){
        return $this->setField("comment", $comment);
     }
-
-
-
 }
+
