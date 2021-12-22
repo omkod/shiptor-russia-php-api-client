@@ -49,6 +49,8 @@ class ShippingEndpoint{
     private $recoverService;
     private $removePackage;
     private $suggestSettlement;
+    private $editPickUp;
+
     public function addPackage(){
         return $this->addPackage = new ShippingRequest\AddPackage();
     }
@@ -233,4 +235,8 @@ class ShippingEndpoint{
     public function suggestSettlement(){
         return $this->suggestSettlement = new ShippingRequest\SuggestSettlement();
     }
+    public function editPickUp(){
+       return $this->editPickUp = new ShippingRequest\EditPickUp();
+    }
 }
+
