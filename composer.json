@@ -1,9 +1,9 @@
 {
-    "name": "shiptor-russia/api-client",
+    "name": "omkod/shiptor-russia-php-api-client",
     "license": "MIT",
     "type": "library",
     "description": "Shiptor Russia Api client",
-    "version": "1.6.3",
+    "version": "1.6.4",
     "autoload": {
         "psr-4": {
           "ShiptorRussiaApiClient\\Client\\": "src/"
